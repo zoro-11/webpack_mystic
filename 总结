@@ -1,0 +1,14 @@
+webpack index.js
+
+npx webpack index.js
+
+npm run bundle -> webpack
+
+webpack-cli 作用，使我们可以在命令号正常使用webpack
+
+工程会默认给一个webpack.config,但是多数情况，我们需要自己配置我们的webpack，所以创建一个webpack.config.js
+
+可以在package.js 中修改scripts 选项，添加 "bundle":"webpack" ,可以使用命令 npm run bundle 来代替 npx webpack
+
+
+
